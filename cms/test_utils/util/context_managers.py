@@ -7,8 +7,7 @@ from django.utils.translation import get_language, activate
 from shutil import rmtree as _rmtree
 from tempfile import template, mkdtemp
 import sys
-from cms.utils.compat.string_io import StringIO
-
+import StringIO
 
 class NULL:
     pass
